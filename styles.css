@@ -16,10 +16,28 @@ nav {
 
 #watch-section {
   color: darkred;
+  background-image: url("design-assets/bgk-middle.png");
+  height: 550px;
 }
 
-#expertise-secion {
+#expertise-section {
+  display: grid;
+  border: 1px solid;
+  grid-template: 1fr 1fr 3fr 3fr 2fr / 1fr 1fr 1fr 1fr 1fr;
   color: fuchsia;
+  background-color: beige;
+  height: 750px;  
+}
+.expertise {
+  grid-column: 1 / span 5;
+  display: grid;
+  justify-content: center;
+  margin: 10px;
+}
+.webdev {
+  display: grid;
+  border: 1px;
+  grid-column: 1 / span 3;
 }
 
 #team-section {
