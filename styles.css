@@ -2,12 +2,80 @@
   margin: 0;
 }
 
+header {
+  background-image: url(./design-assets/bgk-header.png);
+  height: 650px;
+  width: 1600px;
+}
+
 nav {
-  color: red;
+  color: rgb(120, 217, 204);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  font-size: 30px;;
+}
+
+#nav_right {
+  display: flex;
+  gap: 20px;
+}
+
+#nav_right a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Hammersmith One';
+
+}
+
+#nav_right a:hover {
+  color: rgb(120, 217, 204);
+}
+
+#nav_left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Roboto';
+}
+
+.header_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 522.8px;
+}
+
+.header_text hr {
+  width: 40px;
+  border: 0.5px solid rgb(120, 217, 204);
 }
 
 #hero-section {
-  color:blue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  gap: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+#hero-section h1 {
+  font-family: 'Playfair Display'
+}
+
+#hero-section button {
+  background-color: transparent;
+  border: 1px solid rgb(120, 217, 204);
+  color: rgb(120, 217, 204);
+  border-radius: 2px;
+  padding: 10px 15px;
+  font-family: 'Hammersmith One';
 }
 
 #our_story-section {
