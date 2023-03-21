@@ -1,6 +1,35 @@
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Roboto;
+}
+
+nav {
+  color: red;
+}
+
+#hero-section {
+  color:blue;
+}
+
+#our_story-section {
+  color: green;
+}
+
+#watch-section {
+  color: darkred;
+}
+
+#expertise-secion {
+  color: fuchsia;
+}
+
+#team-section {
+  color: yellowgreen;
+}
+
+#contact_client-section {
+  color:lightsalmon;
+}
+
+footer {
+  color: blueviolet;
 }
