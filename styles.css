@@ -83,11 +83,104 @@ nav {
 }
 
 #watch-section {
-  color: darkred;
+  display: flex;
+  color: white;
+  background-image: url(design-assets/bgk-middle.png);
+  height: 550px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-#expertise-secion {
+#watch-section .watch-icon {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height: 50px;
+}
+
+#expertise-section {
+  display: grid;
+  grid-template: 1fr 1fr 3fr 3fr 50px / 1fr 350px 350px 350px 1fr;
+  align-items: stretch;
+  justify-items: stretch;
+  text-align: center;
   color: fuchsia;
+  height: 750px;
+
+}
+
+.expertise {
+  grid-column: 1 / span 5;
+  grid-row: 1 / 3;
+  text-align: center;
+  margin: 10px;
+  padding: 3rem;
+
+}
+.expertise:after {
+  margin: 12px auto 24px;
+  width: 50px;
+  height: 3px;
+  background-color: grey;
+  display: block;
+  content: "";
+}
+
+.webdev {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  display: grid;
+  padding: 2rem;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.brandidentity {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  display: grid;
+  border-left: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+  padding: 2rem;
+}
+
+.mobile {
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+  display: grid;
+  padding: 2rem;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.seo {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+  display: grid;
+  padding: 2rem;
+}
+
+.gamedev {
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+  display: grid;
+  padding: 2rem;
+  border-left: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
+}
+
+.made-with-love {
+  grid-column: 4 / 5;
+  grid-row: 4 / 5;
+  display: grid;
+  padding: 2rem;
 }
 
 #team-section {
