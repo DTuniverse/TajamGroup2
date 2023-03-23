@@ -14,7 +14,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   padding: 10px;
-  font-size: 30px;;
+  font-size: 30px;
 }
 
 #nav_right {
@@ -27,8 +27,7 @@ nav {
   color: white;
   font-size: 13px;
   font-weight: bold;
-  font-family: 'Hammersmith One';
-
+  font-family: "Hammersmith One";
 }
 
 #nav_right a:hover {
@@ -39,7 +38,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .header_text {
@@ -62,11 +61,11 @@ nav {
   max-width: 800px;
   gap: 20px;
   text-align: center;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 #hero-section h1 {
-  font-family: 'Playfair Display'
+  font-family: "Playfair Display";
 }
 
 #hero-section button {
@@ -75,7 +74,7 @@ nav {
   color: rgb(120, 217, 204);
   border-radius: 2px;
   padding: 10px 15px;
-  font-family: 'Hammersmith One';
+  font-family: "Hammersmith One";
 }
 
 #our_story-section {
@@ -95,9 +94,163 @@ nav {
 }
 
 #contact_client-section {
-  color:lightsalmon;
+  color: lightsalmon;
 }
 
-footer {
-  color: blueviolet;
+#footer {
+  background-image: url(./design-assets/bgk-footer.png);
+  /* width: 1600px;
+  height: auto; */
+  background-repeat: no-repeat;
+  background-position: 50%;
+  color: white;
+  font-size: 16px;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.footer-container-grid {
+  border: solid green;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 70%;
+  height: 200px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.footer-item {
+  border: solid blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-name-flex-container {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.tajam-flex-item {
+  margin-left: 15px;
+  color: rgb(120, 217, 204);
+}
+
+#p-footer {
+  padding: 10px;
+  font-family: Roboto;
+  font-size: 12px;
+}
+
+.address-flex-container {
+  display: flex;
+  flex: initial;
+  align-items: center;
+  border: 2px solid purple;
+  padding-top: 30px;
+  font-family: Roboto;
+  font-size: 12px;
+}
+
+/* .footer-item-2 p {
+  display: inline-block;
+} */
+
+.footer-item-2 h2 {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  font-family: Playfair;
+  font-size: 14px;
+  border: 1px solid yellow;
+}
+
+.address-flex-item {
+  margin-left: 5px;
+}
+
+.phone-flex-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid red;
+  font-family: Roboto;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.phone-flex-item {
+  margin-left: 5px;
+}
+
+.form-flex-container {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  grid-column-gap: 5px;
+}
+
+.footer-item-3 h2 {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  font-family: Playfair;
+  font-size: 14px;
+  border: 1px solid yellow;
+}
+
+/* .subscribe-grid-item {
+  content: 0;
+  padding: 0;
+} */
+.footer-item-3 input {
+  background: transparent;
+  margin-top: 10px;
+}
+
+.footer-item-3 button {
+  opacity: 0.5;
+}
+
+.icons-flex-container {
+  margin-top: 20px;
+}
+#icons-footer {
+  padding: 0 5px 0 5px;
+}
+.nav-footer-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 16px;
+  color: white;
+}
+
+.nav-left-footer-flex-container {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-inline-start: 0;
+  margin-top: 40px;
+}
+
+.nav-right-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+a.list-footer {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-family: "Roboto";
+}
+a.list-footer:hover {
+  color: rgb(120, 217, 204);
+}
+.nav-right-footer {
+  font-size: 13px;
+  font-family: Roboto;
+  margin-top: 40px;
 }
