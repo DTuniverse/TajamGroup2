@@ -225,12 +225,11 @@ nav {
   margin: 0px;
 }
 
-#team-section_second-part {
-  display: flex;
-  margin-top: 20px;
-  margin-left: 450px;
-  margin-right: 400px;
-  text-align: center;
+
+#team-section_second-part{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
 }
 
 #img1 {
@@ -317,23 +316,32 @@ nav {
   height: 500px;
   background-color: white;
   display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  
 }
 
-#news-section_first-part {
-  margin-left: 400px;
-  padding: 60px;
+
+#news-section_first-part{
+
+padding: 60px;
 }
+
 #news-section_header {
   font-family: "Playfair Display";
   font-size: 15px;
 }
 
-#news-section_name {
-  margin-top: 20px;
+
+#news-section_name{
+  margin-top: 8px;
+
   width: 270px;
   height: 25px;
   border: 1px solid gray;
   font-size: 10px;
+  
 }
 
 #news-section_email {
@@ -369,11 +377,6 @@ nav {
   background-color: transparent;
   font-family: Hammersmith One;
   color: rgb(120, 217, 204);
-}
-
-#news-section_logo-part {
-  margin-top: 60px;
-  margin-right: 300px;
 }
 
 #news-section_header2 {
