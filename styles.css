@@ -232,10 +232,8 @@ nav {
 
 #team-section_second-part{
     display: flex;
-    margin-top: 20px;  
-    margin-left: 450px;
-    margin-right: 400px;
-    text-align: center;
+    justify-content: center;
+    align-items: center ;
 }
 
 #img1{
@@ -325,10 +323,14 @@ margin-top: 50px;
   height: 500px;
   background-color: white;
   display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 #news-section_first-part{
-margin-left: 400px;
+
 padding: 60px;
 
 }
@@ -338,11 +340,12 @@ padding: 60px;
 }
 
 #news-section_name{
-  margin-top: 20px;
+  margin-top: 8px;
   width: 270px;
   height: 25px;
   border: 1px solid gray;
   font-size: 10px;
+  
 }
 
 #news-section_email{
@@ -380,11 +383,6 @@ padding: 60px;
   color: rgb(120, 217, 204);
 }
 
-#news-section_logo-part{
-  margin-top: 60px;
-  margin-right: 300px; 
-
-}
 
 #news-section_header2{
   font-family: 'Playfair Display';
