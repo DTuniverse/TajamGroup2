@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 header {
@@ -29,8 +29,7 @@ nav {
   color: white;
   font-size: 13px;
   font-weight: bold;
-  font-family: 'Hammersmith One';
-
+  font-family: "Hammersmith One";
 }
 
 #nav_right a:hover {
@@ -41,7 +40,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 100;
 }
 
@@ -65,12 +64,12 @@ nav {
   gap: 20px;
   margin: 150px;
   text-align: center;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 100;
 }
 
 #hero-section h1 {
-  font-family: 'Playfair Display'
+  font-family: "Playfair Display";
 }
 
 #hero-section button {
@@ -79,7 +78,7 @@ nav {
   color: rgb(120, 217, 204);
   border-radius: 2px;
   padding: 10px 15px;
-  font-family: 'Hammersmith One';
+  font-family: "Hammersmith One";
 }
 
 #our_story-section {
@@ -91,7 +90,7 @@ nav {
 }
 
 #hero-section h2 {
-  font-family: 'Playfair Display'
+  font-family: "Playfair Display";
 }
 
 #story_right_side {
@@ -108,7 +107,7 @@ nav {
   color: rgb(120, 217, 204);
   border-radius: 2px;
   padding: 10px 15px;
-  font-family: 'Hammersmith One';
+  font-family: "Hammersmith One";
 }
 
 #watch-section {
@@ -144,7 +143,6 @@ nav {
   justify-items: stretch;
   text-align: center;
   height: 750px;
-
 }
 
 .expertise {
@@ -153,7 +151,6 @@ nav {
   text-align: center;
   margin: 10px;
   padding: 3rem;
-
 }
 .expertise:after {
   margin: 12px auto 24px;
@@ -223,65 +220,53 @@ nav {
   text-align: center;
 }
 
-#team-section_header{
-    color: white;    
-    font-family: 'Playfair Display';
-    padding: 30px ;
-    margin: 0px;
+#team-section_header {
+  color: white;
+  font-family: "Playfair Display";
+  padding: 30px;
+  margin: 0px;
 }
 
-#team-section_second-part{
-    display: flex;
-    margin-top: 20px;  
-    margin-left: 450px;
-    margin-right: 400px;
-    text-align: center;
+#team-section_second-part {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 450px;
+  margin-right: 400px;
+  text-align: center;
 }
 
-#img1{
-   
-   width: 150px;
-   height: 140px;
-   background-color: white;
+#img1 {
+  width: 150px;
+  height: 140px;
+  background-color: white;
 }
 
-#label{
+#label {
   width: 150px;
   height: 25px;
   font-size: 12px;
   font-weight: bold;
-  font-family: 'Hammersmith One';
+  font-family: "Hammersmith One";
 }
 
-#label2{
+#label2 {
   width: 150px;
   font-size: 10px;
   height: 25px;
   text-decoration: none;
   font-weight: normal;
-  font-family: 'Roboto';
-  
+  font-family: "Roboto";
 }
 
-.first_img{
+.first_img {
   height: 200px;
   width: 150px;
   border-style: solid;
   border-color: white;
   border-width: 0.1px;
-  
 }
 
-.second_img{
-  height: 200px;
-  width: 150px;
-  margin-left: 10px; 
-  border-style: solid;
-  border-color: white;
-  border-width: 0.1px;
-}
-
-.third_img{
+.second_img {
   height: 200px;
   width: 150px;
   margin-left: 10px;
@@ -290,7 +275,7 @@ nav {
   border-width: 0.1px;
 }
 
-.fourth_img{
+.third_img {
   height: 200px;
   width: 150px;
   margin-left: 10px;
@@ -299,16 +284,25 @@ nav {
   border-width: 0.1px;
 }
 
-.team-section_third-part{
-margin-top: 50px;
+.fourth_img {
+  height: 200px;
+  width: 150px;
+  margin-left: 10px;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.1px;
 }
 
-#third-part_header{
+.team-section_third-part {
+  margin-top: 50px;
+}
+
+#third-part_header {
   font-size: 12px;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
 }
 
-#third-part_button{
+#third-part_button {
   background-color: transparent;
   color: rgb(120, 217, 204);
   margin-top: 10px;
@@ -317,27 +311,26 @@ margin-top: 50px;
   font-size: 10px;
   font-weight: bold;
   border: 1px solid rgb(120, 217, 204);
-  font-family: 'Hammersmith One';
+  font-family: "Hammersmith One";
 }
 
-#news-section{
-  width:100%;
+#news-section {
+  width: 100%;
   height: 500px;
   background-color: white;
   display: flex;
 }
 
-#news-section_first-part{
-margin-left: 400px;
-padding: 60px;
-
+#news-section_first-part {
+  margin-left: 400px;
+  padding: 60px;
 }
-#news-section_header{
-  font-family: 'Playfair Display'; 
+#news-section_header {
+  font-family: "Playfair Display";
   font-size: 15px;
 }
 
-#news-section_name{
+#news-section_name {
   margin-top: 20px;
   width: 270px;
   height: 25px;
@@ -345,7 +338,7 @@ padding: 60px;
   font-size: 10px;
 }
 
-#news-section_email{
+#news-section_email {
   margin-top: 15px;
   width: 270px;
   height: 25px;
@@ -353,7 +346,7 @@ padding: 60px;
   font-size: 10px;
 }
 
-#news-section_subject{
+#news-section_subject {
   margin-top: 15px;
   width: 270px;
   height: 25px;
@@ -361,7 +354,7 @@ padding: 60px;
   font-size: 10px;
 }
 
-#news-section_textarea{
+#news-section_textarea {
   margin-top: 15px;
   width: 270px;
   height: 150px;
@@ -369,87 +362,232 @@ padding: 60px;
   font-size: 10px;
 }
 
-#news-section_button{
+#news-section_button {
   margin-top: 15px;
   width: 120px;
   height: 25px;
   border: 1px solid rgb(120, 217, 204);
   font-size: 10px;
   background-color: transparent;
-  font-family:  Hammersmith One;
+  font-family: Hammersmith One;
   color: rgb(120, 217, 204);
 }
 
-#news-section_logo-part{
+#news-section_logo-part {
   margin-top: 60px;
-  margin-right: 300px; 
-
+  margin-right: 300px;
 }
 
-#news-section_header2{
-  font-family: 'Playfair Display';
+#news-section_header2 {
+  font-family: "Playfair Display";
   font-size: 15px;
 }
 
-#logo{
+#logo {
   display: flex;
 }
 
-#logo_part1{
-
+#logo_part1 {
   height: 50px;
   display: grid;
   gap: 8px;
 }
 
-#logo_part2{
+#logo_part2 {
   margin-top: -25px;
   display: grid;
   gap: 8px;
   margin-left: 150px;
 }
 
-#mango{
+#mango {
   width: 100px;
 }
 
-#zara{
+#zara {
   margin-top: 25px;
   width: 100px;
 }
 
-#barneysnewyork{
+#barneysnewyork {
   width: 100px;
 }
 
-#calvinklein{
+#calvinklein {
   width: 100px;
 }
 
-#converse{
+#converse {
   width: 100px;
 }
 
-#levis{
+#levis {
   width: 100px;
 }
 
-#gucci{
+#gucci {
   width: 100px;
 }
 
-#nike{
+#nike {
   width: 100px;
 }
 
-#puma{
+#puma {
+  width: 100px;
+}
+#billabong {
   width: 100px;
 }
 
-#billabong{
-  width: 100px;
+#footer {
+  background-image: url(./design-assets/bgk-footer.png);
+  /* width: 1600px;
+  height: auto; */
+  background-repeat: no-repeat;
+  background-position: 50%;
+  color: white;
+  font-size: 16px;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.footer-container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 70%;
+  height: 200px;
+  margin: 0 auto;
+  justify-content: center;
 }
 
-footer {
-  color: blueviolet;
+.footer-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-name-flex-container {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.tajam-flex-item {
+  margin-left: 15px;
+  color: rgb(120, 217, 204);
+}
+
+#p-footer {
+  padding: 10px;
+  font-family: Roboto;
+  font-size: 12px;
+}
+
+.address-flex-container {
+  display: flex;
+  flex: initial;
+  align-items: center;
+  padding-top: 30px;
+  font-family: Roboto;
+  font-size: 12px;
+}
+
+/* .footer-item-2 p {
+  display: inline-block;
+} */
+
+.footer-item-2 h2 {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  font-family: Playfair;
+  font-size: 14px;
+}
+
+.address-flex-item {
+  margin-left: 5px;
+}
+
+.phone-flex-container {
+  display: flex;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.phone-flex-item {
+  margin-left: 5px;
+}
+
+.form-flex-container {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  grid-column-gap: 5px;
+}
+
+.footer-item-3 h2 {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  font-family: Playfair;
+  font-size: 14px;
+}
+
+/* .subscribe-grid-item {
+  content: 0;
+  padding: 0;
+} */
+.footer-item-3 input {
+  background: transparent;
+  margin-top: 10px;
+}
+
+.footer-item-3 button {
+  opacity: 0.5;
+}
+
+.icons-flex-container {
+  margin-top: 20px;
+}
+#icons-footer {
+  padding: 0 5px 0 5px;
+}
+.nav-footer-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 16px;
+  color: white;
+}
+
+.nav-left-footer-flex-container {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-inline-start: 0;
+  margin-top: 40px;
+}
+
+.nav-right-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+a.list-footer {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-family: "Roboto";
+}
+a.list-footer:hover {
+  color: rgb(120, 217, 204);
+}
+.nav-right-footer {
+  font-size: 13px;
+  font-family: Roboto;
+  margin-top: 40px;
 }
